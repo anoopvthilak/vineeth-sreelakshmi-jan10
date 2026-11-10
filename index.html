@@ -1,5 +1,12 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>vineeth + sreelakshmi</title>
+<title>Vineeth &amp; Sreelakshmi</title>
+<meta name="description" content="Join Vineeth and Sreelakshmi as they celebrate their wedding with their families and loved ones.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vineeth &amp; Sreelakshmi">
+<meta property="og:description" content="Join Vineeth and Sreelakshmi as they celebrate their wedding with their families and loved ones.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vineeth &amp; Sreelakshmi">
+<meta name="twitter:description" content="Join Vineeth and Sreelakshmi as they celebrate their wedding with their families and loved ones.">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +78,9 @@ a{color:inherit}
 .cd b{font-weight:700;font-size:1.4rem;font-variant-numeric:tabular-nums}
 .cd span{color:var(--mute);font-size:.95rem}
 .hero figure{margin:0;justify-self:center;width:min(420px,100%)}
-.hero figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 28%;border-radius:28px}
+.hero figure{position:relative;overflow:hidden;border-radius:28px;aspect-ratio:4/5;background:#fff;border:1px solid var(--line);box-shadow:0 30px 60px -34px rgba(29,26,27,.45)}
+.hero figure iframe{display:block;width:calc(100% + 1px);height:calc(100% + 1px);border:0;background:var(--cream);transform-origin:top left;pointer-events:none}
+.hero figure::after{content:"website preview";position:absolute;left:14px;bottom:12px;padding:5px 10px;border-radius:20px;background:rgba(255,255,255,.88);font-family:var(--m);font-size:.68rem;color:var(--mute);letter-spacing:.02em;pointer-events:none}
 
 /* chat */
 .chat .wrap{display:grid;grid-template-columns:1fr;gap:34px;align-items:center}
@@ -325,7 +334,9 @@ a{color:inherit}
       <p class="when">are getting married on <b>sunday, 10 january 2027</b> in kattappana.</p>
       <p class="cd"><b id="cd-d">0</b><span>days to go</span></p>
     </div>
-    <figure class="rv"><img src="photos/hero.jpg" alt="Vineeth and Sreelakshmi laughing together" fetchpriority="high"></figure>
+    <figure class="rv" aria-label="Preview of the wedding website">
+      <iframe src="https://vineeth-sreelakshmi.vercel.app/" title="Wedding website preview" loading="eager" tabindex="-1"></iframe>
+    </figure>
   </div>
 </header>
 
